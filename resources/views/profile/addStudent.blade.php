@@ -10,17 +10,14 @@
             <!-- Dashboard Card with Shadow and Rounded Corners -->
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-lg sm:rounded-xl">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    <h3 class="text-2xl font-semibold mb-4">{{ __("Welcome") }}</h3>
+                    <h3 class="text-2xl font-semibold mb-4">{{ __("You're logged in!") }}</h3>
                     
-                    <!-- Livewire Counter Component -->
+                   
                     <div class="mb-6">
-                        @livewire('students.create')
+                    @livewire('create.index')
                     </div>
 
-                    <!-- Livewire Students Index Component -->
-                    <div>
-                        @livewire('students.index')
-                    </div>
+                    
                 </div>
             </div>
         </div>
